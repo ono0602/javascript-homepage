@@ -1,0 +1,95 @@
+/* モバイル向けレイアウト */
+@media screen and (max-width: 897px) {
+
+  header {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 50px;
+  }
+
+  .header-left {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 24px;
+  }
+
+  .header-right {
+    margin-right: 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .modal {
+    width: 60% !important;
+  }
+
+  footer {
+    width: 100% !important;
+    margin-top: 0;
+  }
+}
+
+
+/*スマホ縦用にさらにカスタマイズ*/
+@media screen and (max-width: 441px) {
+  header {
+    margin: 5px auto !important;
+    height: 30px !important;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .header-left-smaph {
+    display: block !important;
+  }
+
+  .clear {
+    float: right !important;
+  }
+
+  .header-right {
+    width: 33% !important;
+    text-align: center !important;
+  }
+
+  #contact-form h2 {
+    font-size: 16px !important;
+  }
+
+  #contact-form h3 {
+    font-size: 14px !important;
+  }
+
+  #contact-form p {
+    font-size: 12px !important;
+  }
+
+  #submit-btn {
+    font-size: 10px !important;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .contents-smaph {
+    display: block !important;
+  }
+
+  .content-smaph {
+    display: block !important;
+  }
+
+  footer {
+    height: 10px !important;
+    margin-top: 0 !important;
+  }
+
+  footer p {
+    text-align: center !important;
+  }
+}

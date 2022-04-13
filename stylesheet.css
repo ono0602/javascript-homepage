@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  margin-top: 60px;
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-size: 30px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 120px;
+}
+
+.header-left-smaph {
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  display: none;
+  font-size: 24px;
+}
+
+.header-right {
+  margin-top: 40px;
+  margin-right: 120px;
+  float: right;
+  display: block;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  color: black;
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.fa-envelope {
+  color: black;
+  cursor: pointer;
+}
+
+/*modal*/
+.contact-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: white;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 33%;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#contact-form {
+  width: 100%;
+}
+
+#contact-form h2 {
+  color: black;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+#contact-form h3 {
+  color: black;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+#contact-form h3:hover {
+  text-decoration: underline;
+}
+
+#contact-form p {
+  color: black;
+  letter-spacing: 0;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.top-wrapper {
+  height: 500px;
+  padding: 100px 0 50px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.contents {
+  width: 50%;
+  margin-left: 180px;
+  text-align: center;
+}
+
+.content {
+  float: left;
+  width: 33%;
+  padding: 230px 0 50px 0;
+  letter-spacing: 2px;
+}
+
+.content a {
+  color: black;
+  font-size: 26px;
+  display: block;
+}
+
+
+.contents-smaph {
+  height: auto;
+  padding-top: 120px;
+}
+
+.content-smaph {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 0 0;
+  display: none;
+}
+
+.content-smaph a {
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: black;
+}
+
+footer p {
+  color: black;
+  font-size: 12px;
+  text-align: right;
+}
+
+footer {
+  height: 30px;
+  margin-top: 80px;
+  margin-right: 120px;
+}

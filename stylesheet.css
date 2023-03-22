@@ -48,15 +48,11 @@ header {
   cursor: pointer;
 }
 
-.fa-instagram {
-  color: black;
-  cursor: pointer;
-  padding-right: 15px;
-}
-
 .fa-envelope {
   color: black;
   cursor: pointer;
+  text-align: center;
+  position: fixed;
 }
 
 /*modal*/

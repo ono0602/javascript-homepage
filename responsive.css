@@ -33,7 +33,7 @@
 
 
 /*スマホ縦用にさらにカスタマイズ*/
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 520px) {
   header {
     margin: 5px auto !important;
     height: 30px !important;

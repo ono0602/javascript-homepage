@@ -32,26 +32,12 @@ header {
   margin-left: 120px;
 }
 
-.header-left-smaph {
-  width: 100%;
-  text-align: center;
-  padding-top: 5px;
-  display: none;
-  font-size: 24px;
-}
-
 .header-right {
   margin-top: 40px;
   margin-right: 120px;
   float: right;
   display: block;
   cursor: pointer;
-}
-
-.fa-instagram {
-  color: black;
-  cursor: pointer;
-  padding-right: 15px;
 }
 
 .fa-envelope {

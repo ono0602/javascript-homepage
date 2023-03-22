@@ -1,23 +1,15 @@
 $(function () {
 
-  var fadeSpeed1 = 2000;
-  var fadeSpeed2 = 4000;
-  var fadeSpeed3 = 5000;
+  var fadeSpeed1 = 1000;
+  var fadeSpeed2 = 2000;
+  var fadeSpeed3 = 3000;
+  var fadeSpeed4 = 4000;
 
 
   //ページ訪問時の動作
   $('.header-left')
     .css({ opacity: '0.0' })
     .animate({ opacity: '1' }, fadeSpeed1);
-
-  $('.header-left-smaph')
-    .css({ opacity: '0.0' })
-    .animate({ opacity: '1' }, fadeSpeed1);
-
-
-  $('.fa-instagram')
-    .css({ opacity: '0.0' })
-    .animate({ opacity: '1' }, fadeSpeed2);
 
   $('.fa-envelope')
     .css({ opacity: '0.0' })
@@ -34,7 +26,7 @@ $(function () {
 
   $('footer')
     .css({ opacity: '0.0' })
-    .animate({ opacity: '0.7' }, fadeSpeed3);
+    .animate({ opacity: '0.5' }, fadeSpeed4);
 
 
   //modal

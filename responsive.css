@@ -68,9 +68,6 @@
     font-size: 12px !important;
   }
 
-  #submit-btn {
-    font-size: 10px !important;
-  }
 
   .content {
     display: none;
@@ -85,7 +82,7 @@
   }
 
   footer {
-    height: 10px !important;
+    width: 100% !important;
     margin-top: 0 !important;
   }
 

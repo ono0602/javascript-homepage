@@ -30,7 +30,7 @@ $(function () {
 
   $('footer')
     .css({ opacity: '0.0' })
-    .animate({ opacity: '0.5' }, fadeSpeed4);
+    .animate({ opacity: '0.8' }, fadeSpeed4);
 
 
   //modal

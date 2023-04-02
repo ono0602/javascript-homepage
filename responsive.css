@@ -33,7 +33,7 @@
 
 
 /*スマホ用にさらにカスタマイズ*/
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 740px) {
   header {
     margin: 5px auto !important;
     height: 30px !important;
@@ -52,7 +52,8 @@
   }
 
   .header-right {
-    width: 33% !important;
+    position: fixed;
+    width: 85% !important;
     text-align: center !important;
   }
 
